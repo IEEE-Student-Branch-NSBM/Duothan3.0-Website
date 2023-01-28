@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Container from "./container";
 import logoFull from "../public/img/logo_full.png";
+import backgroundImage from "../public/img/BG.png"
+import handImage from "../public/img/hand.png";
+import heart from "../public/img/logo_heart.png";
 import heroImg from "../public/img/hero.png";
 import Button from "./buttons/button";
 
@@ -8,15 +11,15 @@ export default function Hero() {
   return (
     <>
     <div className="bg-black pt-[108px] border-b-8 border-red">
-      <Container className="flex flex-wrap ">
+      <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
+          <div className="max-w-2xl mb-8 flex flex-col items-center lg:items-start ">
             <Image 
               src={logoFull}
               alt="Duothan Logo"
               loading="eager"
             />
-            <p className="pt-10 pb-5 text-lg leading-normal text-white lg:text-xl xl:text-xl">
+            <p className="pt-10 pb-5 text-lg text-center lg:text-left leading-normal text-white lg:text-xl xl:text-xl">
               <b>The One and Only</b> 7-hour Physical duo-hackathon in Sri Lanka.
               Happening for the <b>3rd</b>  time in Sri Lanka was organized by 
               the IEEE Student Branch of NSBM Green University. 
@@ -25,17 +28,11 @@ export default function Hero() {
             <Button>Register Now</Button>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="616"
-              height="617"
-              alt="Hero Illustration"
-              layout="intrinsic"
-              loading="eager"
-              placeholder="blur"
-            />
+        <div className="relative hidden lg:flex items-center justify-center w-full lg:w-1/2 ">
+          <Image src={backgroundImage} width={438.54} height={634.24} className="top-0 -translate-y-20"/>
+          <div className="absolute flex flex-col bottom-[-33px] w-60">
+            <div className="relative translate-x-11"><Image src={heart}/></div>
+            <Image src={handImage} className="relative"/>
           </div>
         </div>
       </Container>
