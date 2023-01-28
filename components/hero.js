@@ -17,7 +17,7 @@ export default function Hero() {
               loading="eager"
             />
             <p className="pt-10 pb-5 text-lg leading-normal text-white lg:text-xl xl:text-xl">
-              <b>The One and Only</b> 7-hour Physical duo-hackathon in Sri Lanka.
+              <b>The One and dfgOnly</b> 7-hour Physical duo-hackathon in Sri Lanka.
               Happening for the <b>3rd</b>  time in Sri Lanka was organized by 
               the IEEE Student Branch of NSBM Green University. 
             </p>
