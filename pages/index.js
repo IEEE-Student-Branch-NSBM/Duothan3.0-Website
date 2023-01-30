@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Timeline from "../components/timeline";
+import Cashprice from "../components/cashprice";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -29,6 +30,7 @@ export default function Home() {
 
         <Hero />
         <Timeline />
+        <Cashprice />
         <SectionTitle title=" Why should you use this landing page">
           Duathon 3.0 is a hackathon organized by the IEEE Student Branch of
           NSBM. This event is not just an ordinary Hackathon. The specialty is,
