@@ -8,7 +8,7 @@ import rootcodeLogo from "../public/img/sponsors/rootcode.png";
 
 export default function Sponsors() {
   return (
-    <Container className="flex flex-wrap bg-black">
+    <Container className="flex flex-wrap">
         <div className="w-full">
             <h1 className="box-border border-b-2 border-[#E52145] pt-4  pb-0.5 text-center text-2xl font-semibold text-red w-full ">SPONSORS</h1>
             <div className="flex flex-col items-center w-full mt-24">
