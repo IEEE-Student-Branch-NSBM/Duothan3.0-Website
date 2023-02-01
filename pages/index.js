@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/hero";
+import Sponsors from "../components/sponsors";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Timeline from "../components/timeline";
@@ -56,9 +57,9 @@ export default function Home() {
           Answer your customers possible questions here, it will increase the
           conversion rate as well as support or chat requests.
         </SectionTitle>
+        <Sponsors />
         <Faq />
       </div>
-
       <Footer />
     </>
   );
