@@ -5,6 +5,9 @@ import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Timeline from "../components/timeline";
 
+import Image from "next/image";
+import logoFull from "../public/img/logo_full.png";
+
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
@@ -20,7 +23,10 @@ export default function Home() {
         <title>Duothan 3.0</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="The One and Only 7-hour Physical duo-hackathon in Sri Lanka.
+          Happening for the 3rd  time in Sri Lanka was organized by 
+          the IEEE Student Branch of NSBM Green University. 
+          "
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,8 +35,14 @@ export default function Home() {
         <Navbar />
 
         <Hero />
-        <Timeline />
-        <SectionTitle title=" Why should you use this landing page">
+        <SectionTitle title="">
+        <Image 
+              src={logoFull}
+              alt="Duothan Logo"
+              loading="eager"
+              width={735} 
+              height={178}
+            />
           Duathon 3.0 is a hackathon organized by the IEEE Student Branch of
           NSBM. This event is not just an ordinary Hackathon. The specialty is,
           we are going to conduct this event in association with Valentines'
@@ -40,15 +52,17 @@ export default function Home() {
           Online event and they will receive a certificate upon completing the
           hackathon under the standards of the event.
         </SectionTitle>
-        <Benefits data={benefitOne} />
+        <Timeline />
+        
+        {/* <Benefits data={benefitOne} />
         <Benefits imgPos="right" data={benefitTwo} />
         <SectionTitle title="Learn how to fullfil your needs">
           This section is to highlight a promo or demo video of your product.
           Analysts says a landing page with video has 3% more conversion rate.
           So, don't forget to add one. Just like this.
         </SectionTitle>
-        <Video />
-        <SectionTitle title="Here's what our customers said">
+        <Video /> */}
+        <SectionTitle title="CASH PRIZES">
           Testimonails is a great way to increase the brand trust and awareness.
           Use this section to highlight your popular customers.
         </SectionTitle>
@@ -58,7 +72,7 @@ export default function Home() {
           conversion rate as well as support or chat requests.
         </SectionTitle>
         <Sponsors />
-        <Faq />
+        {/* <Faq /> */}
       </div>
       <Footer />
     </>
