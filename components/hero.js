@@ -10,17 +10,16 @@ import Button from "./buttons/button";
 export default function Hero() {
   return (
     <>
-    <div className="bg-black pt-[108px] border-b-8 border-red">
-      <Container className="flex flex-wrap ">
+      <Container className="flex flex-wrap border-b-8 border-red b">
         <style>
           {`
             .morbid{
-              animation: text-load-animation 3s cubic-bezier(0.1, 0.1, 0.1, 1.0);
+              animation: text-load-animation 4s cubic-bezier(0.1, 0.1, 0.1, 1.0);
             }
             @keyframes text-load-animation{
               0%{
                 opacity: 0;
-                transform: translateX(-500px);
+                transform: translateX(-200px);
             
               }
               100%{
@@ -37,7 +36,7 @@ export default function Hero() {
 
         </style>
         <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8 morbid">
+          <div className="max-w-2xl mb-8 morbid flex flex-col items-center lg:items-start">
             <Image 
               src={logoFull}
               alt="Duothan Logo"
@@ -48,12 +47,12 @@ export default function Hero() {
               Happening for the <b>3rd</b>  time in Sri Lanka was organized by 
               the IEEE Student Branch of NSBM Green University. 
             </p>
-            <p className="pb-10 font-bold text-white text-xl">24<sup>th</sup> February 2022 | 09:00AM - 05:00PM</p>
+            <p className="pb-10 font-bold text-white text-xl text-center lg:text-left">24<sup>th</sup> February 2022 | 09:00AM - 05:00PM</p>
             <Button>Register Now</Button>
           </div>
         </div>
-        <div className="relative hidden lg:flex items-center justify-center w-full lg:w-1/2 ">
-          <Image src={backgroundImage} width={478.54} height={634.24} className="top-0 -translate-y-10"/>
+        <div className="relative hidden lg:flex pt-0 lg:pt-44 xl:pt-0 items-center justify-center w-full lg:w-1/2 overflow-y-hidden">
+          <div className="-translate-y-24 xl:-translate-y-10 "><Image src={backgroundImage} width={478.54} height={634.24} className="top-0"/></div>
           <style>
             {`
               .hero-image {
@@ -86,7 +85,6 @@ export default function Hero() {
           </div>
         </div>
       </Container>
-    </div>
     </>
   );
 }
