@@ -1,5 +1,6 @@
 import Container from "./container";
 import SponsorCard from "./cards/SponsorCard";
+import Image from "next/dist/client/image";
 import axiataLogo from "../public/img/sponsors/axiata.png";
 import virtusaLogo from "../public/img/sponsors/virtusa.png";
 import $99xLogo from "../public/img/sponsors/99x.png";
