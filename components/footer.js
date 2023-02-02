@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="relative mx-5 mb-5" id="footer">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        {/* <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
@@ -82,10 +82,10 @@ export default function Footer() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © 2023. Made with ♥ by{" "}
+          Made with ♥ by{" "}
           <a href="https://ieeensbm.org/" target="_blank" rel="noopener">
             IEEE NSBM.
           </a>{" "}
