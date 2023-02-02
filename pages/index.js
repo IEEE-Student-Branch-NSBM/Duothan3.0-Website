@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
+import Contact from "../components/contact";
 import Timeline from "../components/timeline";
 
 import Image from "next/image";
@@ -71,6 +72,7 @@ export default function Home() {
           conversion rate as well as support or chat requests.
         </SectionTitle>
         {/* <Faq /> */}
+        <Contact />
       </div>
 
       <Footer />
