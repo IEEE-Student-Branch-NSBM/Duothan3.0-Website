@@ -4,6 +4,7 @@ import Sponsors from "../components/sponsors";
 import Navbar from "../components/navbar";
 import Rules from "../components/rules";
 import SectionTitle from "../components/sectionTitle";
+import Contact from "../components/contact";
 import Timeline from "../components/timeline";
 import Image from "next/image";
 import logoFull from "../public/img/logo_full.png";
@@ -55,6 +56,7 @@ export default function Home() {
         <Testimonials />
         <Sponsors />
         <Rules />
+        <Contact />
         <Faq />
       </div>
       <Footer />
