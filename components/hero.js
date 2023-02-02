@@ -6,6 +6,7 @@ import handImage from "../public/img/hand.png";
 import heart from "../public/img/logo_heart.png";
 import heroImg from "../public/img/hero.png";
 import Button from "./buttons/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -40,7 +41,9 @@ export default function Hero() {
             <p className="pb-10 font-bold text-white text-xl text-center lg:text-left">
               24<sup>th</sup> February 2022 | 09:00AM - 05:00PM
             </p>
-            <Button>Register Now</Button>
+           
+              <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank"><Button>Register Now</Button></a>
+           
           </div>
         </div>
         <div className="relative hidden lg:flex pt-0 lg:pt-44 xl:pt-0 items-center justify-center w-full lg:w-1/2 overflow-y-hidden">

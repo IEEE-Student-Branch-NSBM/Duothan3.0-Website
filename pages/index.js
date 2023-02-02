@@ -39,25 +39,28 @@ export default function Home() {
             width={735}
             height={178}
           />
-          Duathon 3.0 is a hackathon organized by the IEEE Student Branch of
-          NSBM. This event is not just an ordinary Hackathon. The specialty is,
-          we are going to conduct this event in association with Valentines'
-          Day, and the competitors have to code in pairs. A team containing a
-          male and a female has to participate in the Hackathon and they will
-          get a time period of 12 hours. The hackathon is taking place as an
-          Online event and they will receive a certificate upon completing the
-          hackathon under the standards of the event.
+          Duothan 3.0 is a buildathon organized by the IEEE Student Branch of
+          NSBM. This event is not just an ordinary buildathon. The specialty is,
+          we are going to conduct this event in association with Valentines’
+          Day, and the competitors have to build in two pairs. Each team needs
+          04 members and they will get a time period of 07 hours. The buildathon
+          is taking place as a Physical event, not only for NSBM Green
+          University students but also for undergraduates from any university
+          and all the participants will receive a digital certificate upon
+          completing the buildathon under the standards of the event. This is a
+          great opportunity to stand a chance to win exciting cash prizes as a
+          team.
         </SectionTitle>
         <Timeline />
-        <SectionTitle title="CASH PRIZES">
+        {/* <SectionTitle title="CASH PRIZES">
           Testimonails is a great way to increase the brand trust and awareness.
           Use this section to highlight your popular customers.
         </SectionTitle>
-        <Testimonials />
-        <Sponsors />
+        <Testimonials /> */}
+        {/* <Sponsors /> */}
         <Rules />
         <Contact />
-        <Faq />
+        {/* <Faq /> */}
       </div>
       <Footer />
     </>

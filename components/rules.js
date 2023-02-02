@@ -34,9 +34,10 @@ export default function Rules() {
             </p>
           </div>
           <div className="mt-10">
-            <Button href="#">
+            <a href="https://docs.google.com/document/d/1jokfIRisAch2cW0XA3IQGL7s7jiMtcHIkEK76KlKnMg/edit?usp=drivesdk" target="_blank"> <Button>
               Download PDF <FaArrowDown className="inline" />
-            </Button>
+            </Button></a>
+           
           </div>
         </div>
       </Container>
