@@ -6,8 +6,9 @@ export default function Navbar() {
     { title: "HOME", path: "/#" },
     { title: "TIMELINE", path: "/#timeline" },
     { title: "RULES", path: "/#rules" },
-    { title: "SPONSORS", path: "/#sponsors" },
-    { title: "FAQ", path: "/#faq" },
+    // { title: "SPONSORS", path: "/#sponsors" },
+    // { title: "FAQ", path: "/#faq" },
+    { title: "CONTACT", path: "/#contact" },
   ];
 
   return (
@@ -94,11 +95,11 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/">
+          <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank">
             <a className="px-6 py-2 text-white bg-red rounded-md md:ml-5">
-              Get Started
+              Register Now
             </a>
-          </Link>
+          </a>
         </div>
       </nav>
     </div>
