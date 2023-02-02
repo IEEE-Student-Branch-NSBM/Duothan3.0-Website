@@ -54,10 +54,10 @@ export default function Home() {
         </SectionTitle>
         <Testimonials />
         <Sponsors />
-        <Rules />        
+        <Rules />
         <Faq />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
