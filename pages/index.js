@@ -59,7 +59,7 @@ export default function Home() {
         <Contact />
         <Faq />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
