@@ -11,8 +11,8 @@ export default function GmailIcon(){
             <path d="M9.62984 9.34406L0.904882 3.01063C0.393589 2.63129 0.24515 1.90558 0.624496 1.39429C1.00384 0.882998 1.74604 0.767545 2.27383 1.14689L9.64633 6.50721L17.0683 1.08092C17.5796 0.701571 18.3053 0.817024 18.6847 1.34481C19.064 1.8561 18.9486 2.58181 18.4208 2.96115L9.62984 9.34406Z" fill="#D54B3D"/>
             <defs>
                 <linearGradient id="paint0_linear_426_3" x1="0.507551" y1="8.55688" x2="18.8886" y2="8.55688" gradientUnits="userSpaceOnUse">
-                    <stop stop-opacity="0.1"/>
-                    <stop offset="1" stop-opacity="0.2"/>
+                    <stop stopOpacity="0.1"/>
+                    <stop offset="1" stopOpacity="0.2"/>
                 </linearGradient>
             </defs>
         </svg>
