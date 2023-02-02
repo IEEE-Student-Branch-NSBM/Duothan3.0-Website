@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Sponsors from "../components/sponsors";
 import Navbar from "../components/navbar";
+import Rules from "../components/rules";
 import SectionTitle from "../components/sectionTitle";
 import Timeline from "../components/timeline";
 
@@ -67,11 +68,15 @@ export default function Home() {
           Use this section to highlight your popular customers.
         </SectionTitle>
         <Testimonials />
+
         <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
           Answer your customers possible questions here, it will increase the
           conversion rate as well as support or chat requests.
         </SectionTitle>
         <Sponsors />
+
+        <Rules />
+
         {/* <Faq /> */}
       </div>
       <Footer />
