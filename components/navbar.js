@@ -7,7 +7,7 @@ export default function Navbar() {
     { title: "TIMELINE", path: "/#timeline" },
     { title: "RULES", path: "/#rules" },
     // { title: "SPONSORS", path: "/#sponsors" },
-    // { title: "FAQ", path: "/#faq" },
+    { title: "FAQ", path: "/#faq" },
     { title: "CONTACT", path: "/#contact" },
   ];
 
