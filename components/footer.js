@@ -89,7 +89,7 @@ export default function Footer() {
           <a href="https://ieeensbm.org/" target="_blank" rel="noopener">
             IEEE NSBM.
           </a>{" "}
-          Illustrations from{" "}
+          Designed by{" "}
           <a
             href="https://www.linkedin.com/in/senithedirisinghe"
             target="_blank"
