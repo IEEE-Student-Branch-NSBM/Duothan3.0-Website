@@ -90,8 +90,12 @@ export default function Footer() {
             IEEE NSBM.
           </a>{" "}
           Illustrations from{" "}
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener ">
-            Senith Edirisigha
+          <a
+            href="https://www.linkedin.com/in/senithedirisinghe"
+            target="_blank"
+            rel="noopener "
+          >
+            Senith Edirisinghe
           </a>
         </div>
       </Container>
