@@ -12,32 +12,42 @@ export default function Rules() {
             RULES & REGULATIONS
           </h1>
           <div className="mt-10 text-justify text-lg text-white font-medium lg:mx-0">
-            <p className="pt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              elit tortor, sagittis quis eros quis, mattis viverra lorem.
-              Aliquam interdum nibh non sem tristique rutrum. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis
-              quis eros quis, mattis viverra lorem. Aliquam interdum nibh non
-              sem tristique rutrum. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit.
-            </p>
-            <p className="pt-4">
-              Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem.
-              Aliquam interdum nibh non sem tristique rutrum. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis
-              quis eros quis, mattis viverra lorem. Aliquam interdum nibh non
-              sem tristique rutrum. Fusce elit tortor, sagittis quis eros quis,
-              mattis viverra lorem. Aliquam interdum nibh non sem tristique
-              rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem.
-              Aliquam interdum nibh non sem tristique rutrum.
-            </p>
+            <p className="pt-4">What conditions may apply for Duathon 3.0?</p>
+            <ul className="pl-14 pt-10 list-disc">
+              <li className="pb-2">
+                A team should consist of four participants.
+              </li>
+              <li className="pb-2">
+                Team members should belong to the same university.
+              </li>
+              <li className="pb-2">
+                The participants should compete throughout the whole 07 hours of
+                the buildathon.
+              </li>
+              <li className="pb-2">
+                Teams should compete for the competition according to the
+                instructions provided by the organizing committee of Duothan
+                3.0.
+              </li>
+              <li className="pb-2">
+                Every participant should accept and respect the final decision
+                of the organizing committee.
+              </li>
+              <li className="pb-2">
+                For all the undergraduates from any university.
+              </li>
+            </ul>
           </div>
           <div className="mt-10">
-            <a href="https://docs.google.com/document/d/1jokfIRisAch2cW0XA3IQGL7s7jiMtcHIkEK76KlKnMg/edit?usp=drivesdk" target="_blank"> <Button>
-              Download PDF <FaArrowDown className="inline" />
-            </Button></a>
-           
+            <a
+              href="https://docs.google.com/document/d/1jokfIRisAch2cW0XA3IQGL7s7jiMtcHIkEK76KlKnMg/edit?usp=drivesdk"
+              target="_blank"
+            >
+              {" "}
+              <Button>
+                Download PDF <FaArrowDown className="inline" />
+              </Button>
+            </a>
           </div>
         </div>
       </Container>

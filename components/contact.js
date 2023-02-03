@@ -18,24 +18,24 @@ export default function Contact() {
             post="Event Coordinator"
             of="IEEE Student Branch of NSBM"
             img={IshadiPicture}
-            whatsapp="+947777777777"
-            email="example@ieee.com"
+            whatsapp="+94717421821"
+            email="ishadihandapangoda@gmail.com"
           />
           <ContactCard
             name="Chathuranga Senarathna"
             post="Co - Chairperson"
             of="Duothan 3.0"
             img={ChathurangaPicture}
-            whatsapp="+94777777777"
-            email="example@ieee.com"
+            whatsapp="+94774040463"
+            email="chathurangasenarathne@ieee.org"
           />
           <ContactCard
             name="Wathsala Gamarachchi"
             post="Co - Chairperson"
             of="Duothan 3.0"
             img={WathsalaPicture}
-            whatsapp="+947777777777"
-            email="example@ieee.com"
+            whatsapp="+94719545232"
+            email="wathsalagamarachchi@gmail.com"
           />
         </div>
       </Container>
