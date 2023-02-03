@@ -67,11 +67,11 @@ export default function Navbar() {
                         </a>
                       </Link>
                     ))}
-                    <Link href="/">
-                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-red rounded-md lg:ml-5">
-                        Register Here
+                  
+                      <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank"  className="w-full px-6 py-2 mt-3 text-center text-white bg-red rounded-md lg:ml-5">
+                        Register Now
                       </a>
-                    </Link>
+                    
                   </>
                 </Disclosure.Panel>
               </div>
