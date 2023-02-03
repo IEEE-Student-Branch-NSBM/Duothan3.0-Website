@@ -6,7 +6,7 @@ import GmailIcon, { Gmail } from "../icons/gmail";
 export default function ContactCard({ name, post, of, whatsapp, email, img, ...props }) {
     return(
         <div className="sm:w-[24rem] sm:h-[12rem] bg-[#333333] rounded-xl relative flex mt-5 flex-col sm:flex-row">
-            <Image src={img} height={192} width={120} className="object-cover rounded-t-xl sm:rounded-none sm:rounded-l-xl border-none object-top sm:object-center"></Image>
+            <Image src={img} height={192} width={120} unoptimized={true} className="object-cover rounded-t-xl sm:rounded-none sm:rounded-l-xl border-none object-top sm:object-center"></Image>
             <div className=" h-auto sm:h-full sm:w-[calc(100%-120px)] flex flex-col justify-center">
                 <div className="mx-5 my-5 sm:m-none sm:ml-5 text-center sm:text-left">
                     <div className="mb-2">

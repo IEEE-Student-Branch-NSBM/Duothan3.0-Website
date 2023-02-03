@@ -59,8 +59,8 @@ export default function Home() {
         <Testimonials /> */}
         {/* <Sponsors /> */}
         <Rules />
-        <Contact />
         <Faq />
+        <Contact />
       </div>
       <Footer />
     </>

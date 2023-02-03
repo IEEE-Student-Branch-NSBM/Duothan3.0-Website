@@ -39,7 +39,7 @@ export default function Hero() {
               organized by the IEEE Student Branch of NSBM Green University.
             </p>
             <p className="pb-10 font-bold text-white text-xl text-center lg:text-left">
-              24<sup>th</sup> February 2022 | 09:00AM - 06:00PM
+              24<sup>th</sup> February 2023 | 09:00AM - 06:00PM
             </p>
            
               <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank"><Button>Register Now</Button></a>
