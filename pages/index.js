@@ -60,7 +60,7 @@ export default function Home() {
         {/* <Sponsors /> */}
         <Rules />
         <Contact />
-        {/* <Faq /> */}
+        <Faq />
       </div>
       <Footer />
     </>
