@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8 morbid flex flex-col items-center lg:items-start">
             <Image src={logoFull} alt="Duothan Logo" loading="eager" />
-            <p className="pt-10 pb-5 text-lg text-center lg:text-left leading-normal text-white lg:text-xl xl:text-xl">
+            <p className="pt-10 pb-5 text-lg text-justify lg:text-left leading-normal  text-white lg:text-xl xl:text-xl">
               <b>The One and Only</b> 7-hour Physical duo-hackathon in Sri
               Lanka. Happening for the <b>3rd</b> time in Sri Lanka was
               organized by the IEEE Student Branch of NSBM Green University.

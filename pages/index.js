@@ -41,7 +41,7 @@ export default function Home() {
           />
           Duothan 3.0 is a buildathon organized by the IEEE Student Branch of
           NSBM. This event is not just an ordinary buildathon. The specialty is,
-          we are going to conduct this event in association with Valentines’
+          we are going to conduct this event in association with Valentines'
           Day, and the competitors have to build in two pairs. Each team needs
           04 members and they will get a time period of 07 hours. The buildathon
           is taking place as a Physical event, not only for NSBM Green
