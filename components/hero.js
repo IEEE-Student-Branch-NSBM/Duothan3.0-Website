@@ -7,6 +7,8 @@ import heart from "../public/img/logo_heart.png";
 import heroImg from "../public/img/hero.png";
 import Button from "./buttons/button";
 import Link from "next/link";
+import character1 from "../public/img/character1.png";
+import character2 from "../public/img/character2.png";
 
 export default function Hero() {
   return (
@@ -41,9 +43,10 @@ export default function Hero() {
             <p className="pb-10 font-bold text-white text-xl text-center lg:text-left">
               24<sup>th</sup> February 2023 | 09:00AM - 06:00PM
             </p>
-           
-              <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank"><Button>Register Now</Button></a>
-           
+
+            <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank">
+              <Button>Register Now</Button>
+            </a>
           </div>
         </div>
         <div className="relative hidden lg:flex pt-0 lg:pt-44 xl:pt-0 items-center justify-center w-full lg:w-1/2 overflow-y-hidden">
@@ -80,11 +83,11 @@ export default function Hero() {
                 }
             `}
           </style>
-          <div className="absolute flex flex-col bottom-[-45px] w-60 hero-image">
+          <div className="absolute center-[-45px] w-96 hero-image">
             <div className="relative translate-x-11 heart-image">
-              <Image src={heart} />
+              <Image src={character2} />
             </div>
-            <Image src={handImage} className="relative" />
+            {/* <Image src={handImage} className="relative" /> */}
           </div>
         </div>
       </Container>
