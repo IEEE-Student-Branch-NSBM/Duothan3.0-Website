@@ -8,14 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        trueGray: colors.trueGray,
+        
         red: "#EA1154",
         black: "#000000",
         white:"#EBEBEB"
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
     },
   },
