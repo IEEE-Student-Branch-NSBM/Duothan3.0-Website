@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="max-w-2xl mb-8 morbid flex flex-col items-center lg:items-start">
             <Image src={logoFull} alt="Duothan Logo" loading="eager" />
             <p className="pt-10 pb-5 text-lg text-justify lg:text-left leading-normal  text-white lg:text-xl xl:text-xl">
-              <b>The One and Only</b> 7-hour Physical duo-hackathon in Sri
+              <b>The One and Only</b> 7-hour Physical Team-hackathon in Sri
               Lanka. Happening for the <b>3rd</b> time in Sri Lanka was
               organized by the IEEE Student Branch of NSBM Green University.
             </p>
@@ -83,9 +83,9 @@ export default function Hero() {
                 }
             `}
           </style>
-          <div className="absolute center-[-45px] w-96 hero-image">
+          <div className="absolute center-[-45px] w-[550px] hero-image">
             <div className="relative translate-x-11 heart-image">
-              <Image src={character2} />
+              <Image src={character2} width={550} height={550} />
             </div>
             {/* <Image src={handImage} className="relative" /> */}
           </div>
