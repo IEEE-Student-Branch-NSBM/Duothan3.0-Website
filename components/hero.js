@@ -45,7 +45,7 @@ export default function Hero() {
             </p>
 
             <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank">
-              <Button>Register Now</Button>
+              <Button className="disabled:opacity-25">Registration Closed</Button>
             </a>
           </div>
         </div>
