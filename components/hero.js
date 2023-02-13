@@ -44,7 +44,7 @@ export default function Hero() {
               24<sup>th</sup> February 2023 | 09:00AM - 06:00PM
             </p>
 
-            <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank">
+            <a href="https://forms.gle/n9zw8CwS6WPrJmvXA" target="_blank" className="disabled:opacity-25">
               <Button>Register Now</Button>
             </a>
           </div>
