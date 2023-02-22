@@ -26,7 +26,7 @@ export default function Testimonials() {
               />
             </div>
           </div>
-          <div className="pb-0 xl:pb-[60px]">
+          <div className="pb-0 xl:pb-[60px] order-1 xl:order-2">
             <div className="flex flex-col justify-between bg-gray-800 text-white px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               
 
@@ -37,7 +37,7 @@ export default function Testimonials() {
               />
             </div>
           </div>
-          <div className="xl:self-end">
+          <div className="xl:self-end order-3">
             <div className="flex flex-col justify-between w-full h-full bg-gray-800 text-white px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               
 
