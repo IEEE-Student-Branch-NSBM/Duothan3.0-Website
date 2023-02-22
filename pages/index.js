@@ -55,8 +55,8 @@ export default function Home() {
         {/* <SectionTitle title="CASH PRIZES">
           Testimonails is a great way to increase the brand trust and awareness.
           Use this section to highlight your popular customers.
-        </SectionTitle>
-        <Testimonials /> */}
+        </SectionTitle>*/}
+        <Testimonials /> 
         {/* <Sponsors /> */}
         <Rules />
         <Faq />
