@@ -15,7 +15,7 @@ export default function Testimonials() {
           CASH PRIZES
         </h1>
         <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mt-10">
-          <div className="xl:self-end order-2 xl:order-1">
+          <div className="xl:self-end order-2 xl:order-1 duration-300 hover:scale-110 transition ease-out">
             <div className="flex flex-col justify-between w-full h-full bg-gray-800 text-white px-14 rounded-2xl py-14 dark:bg-trueGray-800">
 
               <Avatar
@@ -26,7 +26,7 @@ export default function Testimonials() {
               />
             </div>
           </div>
-          <div className="lg:col-span-2 xl:col-auto pb-0 xl:pb-[60px] order-1 xl:order-2">
+          <div className="lg:col-span-2 xl:col-auto pb-0 xl:pb-[60px] order-1 xl:order-2 duration-300 hover:scale-110 transition ease-out">
             <div className="flex flex-col justify-between bg-gray-800 text-white px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               
 
@@ -37,7 +37,7 @@ export default function Testimonials() {
               />
             </div>
           </div>
-          <div className="xl:self-end order-3">
+          <div className="xl:self-end order-3 duration-300 hover:scale-110 transition ease-out">
             <div className="flex flex-col justify-between w-full h-full bg-gray-800 text-white px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               
 
