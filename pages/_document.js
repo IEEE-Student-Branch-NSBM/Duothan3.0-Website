@@ -35,11 +35,11 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="bg-black dark">
           <Main />
           <NextScript />
         </body>

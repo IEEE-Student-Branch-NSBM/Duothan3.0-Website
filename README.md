@@ -1,6 +1,6 @@
 # Duothan 3.0
+[![Netlify Status](https://api.netlify.com/api/v1/badges/675768d4-6989-4100-aa68-8664c0540afe/deploy-status)](https://app.netlify.com/sites/duothanv3/deploys)
 
-Duathon 3.0 is a buildathon organized by the IEEE Student Branch of NSBM. This event is not just an ordinary Hackathon. The specialty is, we are going to conduct this event in association with Valentines’ Day, and the competitors have to code in pairs. A team containing a male and a female has to participate in the Hackathon and they will get a time period of 12 hours. The hackathon is taking place as an Online event and they will receive a certificate upon completing the hackathon under the standards of the event
 
 ## How to use
 
