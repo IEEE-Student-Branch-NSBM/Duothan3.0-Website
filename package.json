@@ -28,6 +28,7 @@
     "@heroicons/react": "^1.0.1",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
     "next": "^11.1.0",
     "next-themes": "^0.0.14",
     "react": "^17.0.1",

@@ -28,7 +28,7 @@ export default function Hero() {
             </p>
 
             <Countdown 
-              timeTillDate="02 24 2023, 11:30 pm" 
+              timeTillDate="02 24 2023, 05:00 pm" 
               timeFormat="MM DD YYYY, h:mm a" 
             />
           </div>

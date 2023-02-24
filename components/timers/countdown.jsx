@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
+import 'moment-timezone';
 
 class Countdown extends React.Component {
 	state = {
@@ -11,20 +12,21 @@ class Countdown extends React.Component {
 	}
 	
 	componentDidMount() {
+		moment.tz.setDefault("Asia/Colombo");
 		this.interval = setInterval(() => {
 			const { timeTillDate, timeFormat } = this.props;
 			const then = moment(timeTillDate, timeFormat);
 			const now = moment();
-			const countdown = moment(then - now);
-			const days = countdown.format('D');
+			const countdown = moment.duration(then.diff(now));
+			const days = countdown.days();
 			var hours = '00';
             var minutes = "00";
             var seconds = "00";
             console.log(days);
-            if(days === '1') {
-            hours = countdown.format('HH');
-			minutes = countdown.format('mm');
-			seconds = countdown.format('ss');
+            if(days === 0) {
+            hours = countdown.hours();
+			minutes = countdown.minutes();
+			seconds = countdown.seconds();
             }
 			this.setState({ days, hours, minutes, seconds });
 		}, 1000);
