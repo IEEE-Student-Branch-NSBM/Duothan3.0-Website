@@ -23,7 +23,7 @@ class Countdown extends React.Component {
             var minutes = "00";
             var seconds = "00";
             console.log(days);
-            if(days === 0) {
+            if(countdown.seconds() > 0) {
             hours = countdown.hours();
 			minutes = countdown.minutes();
 			seconds = countdown.seconds();
@@ -52,21 +52,21 @@ class Countdown extends React.Component {
 		return (
 			<div>
 				<div className='countdown-wrapper text-white flex items-center justify-center flex-wrap'>
-					{hours && (
+					{(
 						<div className='countdown-item text-4xl flex items-center justify-center flex-col leading-7 m-2 pt-2 relative w-[100px] h-[100px]'>							
 							<SVGCircle radius={hoursRadius} />
 							{hours} 
 							<span className='text-xs font-semibold uppercase'>hours</span>
 						</div>
 					)}
-					{minutes && (
+					{(
 						<div className='countdown-item text-4xl flex items-center justify-center flex-col leading-7 m-2 pt-2 relative w-[100px] h-[100px]'>
 							<SVGCircle radius={minutesRadius} />
 							{minutes} 
 							<span className='text-xs font-semibold uppercase'>minutes</span>
 						</div>
 					)}
-					{seconds && (
+					{(
 						<div className='countdown-item text-4xl flex items-center justify-center flex-col leading-7 m-2 pt-2 relative w-[100px] h-[100px]'>
 							<SVGCircle radius={secondsRadius} />
 							{seconds} 
