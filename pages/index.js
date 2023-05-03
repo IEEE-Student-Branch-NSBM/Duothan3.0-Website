@@ -11,6 +11,7 @@ import logoFull from "../public/img/logo_full.png";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Faq from "../components/faq";
+import Cert from "../components/cert";
 
 export default function Home() {
   return (
@@ -60,7 +61,9 @@ export default function Home() {
         {/* <Sponsors /> */}
         <Rules />
         <Faq />
+        <Cert />
         <Contact />
+        
       </div>
       <Footer />
     </>
