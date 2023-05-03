@@ -11,6 +11,7 @@ import logoFull from "../public/img/logo_full.png";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Faq from "../components/faq";
+import CertficateValidator from "../components/certificateValidator";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
         {/* <Sponsors /> */}
         <Rules />
         <Faq />
+        <CertficateValidator />
         <Contact />
       </div>
       <Footer />
