@@ -9,6 +9,7 @@ export default function Navbar() {
     // { title: "SPONSORS", path: "/#sponsors" },
     { title: "FAQ", path: "/#faq" },
     { title: "CONTACT", path: "/#contact" },
+     { title: "CERTIFICATES", path: "/#cert" },
   ];
 
   return (
