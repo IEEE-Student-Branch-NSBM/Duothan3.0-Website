@@ -83,9 +83,9 @@ export default function Hero() {
                 }
             `}
           </style>
-          <div className="absolute center-[-45px] w-96 hero-image">
+          <div className="absolute center-[-45px] w-[550px] hero-image">
             <div className="relative translate-x-11 heart-image">
-              <Image src={character2} />
+              <Image src={character2} width={550} height={550} />
             </div>
             {/* <Image src={handImage} className="relative" /> */}
           </div>
